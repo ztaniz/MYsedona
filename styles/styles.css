@@ -1,0 +1,538 @@
+body {
+    min-width: 768px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    background: #f2f2f2;
+    font-family: "PT Sans", sans-serif, Arial;
+}
+
+.container {
+    min-width: 768px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+                        /*HEADER*/
+.intro {
+    position: relative;
+    padding-bottom: 100px;
+    background: url(../img/background-photo.jpg) 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.main-navigation {
+    position: relative;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+    min-height: 56px;
+    font-size: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main-navigation li {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+
+.main-navigation .small-logo {
+    position: relative;
+    height: 56px;
+    padding: 0;
+    z-index: 1;
+}
+
+.welcome {
+    width: 256px;
+    height: 87px;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background: url(../img/welcome.png) 0 0 no-repeat;
+}
+
+.sedona-logo {
+    width: 458px;
+    height: 214px;
+    margin: 0 auto;
+    background: url(../img/Sedona-logo.png) 0 0 no-repeat;
+}
+
+.intro::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 57px;
+    background: url(../img/Shape-logo.png) 0 0 no-repeat;
+    background-size: 100% 57px;
+    opacity: 0.8;
+}
+                    /*HEADER END*/
+                    /*MAIN*/
+
+.description {
+    padding-top: 60px;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.describe {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.reason {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.city {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 255px;
+    font-size: 0;
+}
+
+.city-describe {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%; 
+    background: #81b3d2;
+    color: #fff;
+    
+    box-sizing: border-box;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 255px;
+}
+
+.about-title {
+    width: 200px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title-n {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.about-text {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.city-foto {
+   display: inline-block;
+    vertical-align: top;
+    width: 67%;
+}
+
+.city-foto img {
+    width: 100%;
+}
+
+                /*features*/
+
+.features-city {
+    font-size: 0;
+}
+
+.features-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    min-height: 330px;
+    text-align: center;
+    font-size: 14px;
+    padding-right: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    padding-top: 160px;
+}
+
+.housing-title, .souvenirs-title, .food-title {
+    position: relative;
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.housing-title::before, .souvenirs-title::before, .food-title::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 12px;
+    background: url(../img/sprites.png) no-repeat;
+}
+
+.housing-title::before {
+    background-position: -70px 0;
+	width: 75px;
+	height: 72px;
+}
+
+.food-title::before {
+    background-position: -152px 0;
+	width: 74px;
+	height: 70px;
+}
+
+.souvenirs-title::before {
+    left: 17px;
+    background-position: 0 0;
+	width: 64px;
+	height: 76px;
+}
+
+                /*bridge*/
+
+.bridge {
+    font-size: 0;
+    overflow: hidden;
+    height: 255px;
+}
+.bridge-describe {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%; 
+    background: #81b3d2;
+    color: #fff;
+    
+    box-sizing: border-box;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 255px;
+}
+.bridge-foto {
+   display: inline-block;
+    vertical-align: top;
+    width: 67%;
+}
+
+.bridge-foto img {
+    width: 100%;
+}
+
+            /*features-list*/
+
+.features-list {
+    min-height: 255px;
+    font-size: 0;
+    background-color: #eeeeee;
+}
+
+.features-list .features-block {
+    min-height: 255px;
+    padding-top: 45px;
+}
+
+.features-list .about-title {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+                /*serch*/
+.search {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.search-title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+.search-info {
+    width: 500px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 14px;
+    line-height: 24px;
+}
+
+                    /*serch-block*/
+
+.search-block {
+    position: relative;
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-btn {
+    display: block;
+    width: 100%;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    text-decoration: none;
+    background-color: #766357;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+                /*search-form*/
+
+.search-form {
+    font-size: 0;
+    position: absolute;
+    z-index: 10;
+    display: block;
+    width: 460px;
+    padding: 55px;
+    background-color: #fff;
+    
+    box-shadow: 0 38px 96px 4px rgba(0, 0, 0, 0.75);
+}
+
+.search-form-dates {
+    margin-bottom: 32px;
+   
+}
+.search-form-row {
+    margin-bottom: 27px;
+    font-size: 0;
+}
+
+
+
+.search-form-row label {
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    text-align: left;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    
+}
+label {
+    cursor: pointer;
+}
+
+
+.search-form-row input {
+    position: relative;
+    display: inline-block;
+    width: 301px;
+    padding: 5px 30px 5px 15px;
+    vertical-align: middle;
+    border-style: none;
+    background-color: #f2f2f2;
+    
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.search-form-dates + .search-form-row {
+    margin-bottom: 55px;
+}
+
+.search-form-col {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.search-form-col:first-child label {
+    text-align: left;
+}
+
+.search-form-col input {
+    width: 32px;
+    padding-right: 41px;
+    padding-left: 41px;
+    text-align: center;
+}
+
+.search-controls-subtract, .search-controls-add {
+    position: relative;
+    cursor: pointer;
+} 
+
+.search-controls-subtract::before {
+    position: absolute;
+    top: -1.5px;
+    left: -100px;
+    width: 12px;
+    height: 3px;
+    content: "";
+    background: 0px -11px url(../img/sprites-1.png) no-repeat;
+}
+
+
+
+                /*SPRITE*/
+.food-sprite, .house-sprite, .souvenirs-sprite{
+	background: url(../img/sprites.png) 0 0 no-repeat;
+}
+
+.food-sprite{
+	background-position: -152px 0;
+	width: 74px;
+	height: 70px;
+}
+
+.house-sprite{
+	background-position: -70px 0;
+	width: 75px;
+	height: 72px;
+}
+
+.souvenirs-sprite{
+	background-position: 0 0;
+	width: 64px;
+	height: 76px;
+}
+
+                /*sprite-1*/
+
+.cal-3, .f, .f-hov, .logo-fut, .logo-fut-hov, .minus-1, .minus-2, .minus-3, .plus-1, .plus-2, .plus-3, .t, .t-hov, .v, .v-hov, .cal-1, .cal-2{
+	background: url(sprites.png) no-repeat;
+}
+
+.cal-3{
+	background-position: -163px -6px ;
+	width: 21px;
+	height: 22px;
+}
+
+.f{
+	background-position: -439px -68px ;
+	width: 47px;
+	height: 48px;
+}
+
+.f-hov{
+	background-position: -439px 0;
+	width: 47px;
+	height: 48px;
+}
+
+.logo-fut{
+	background-position: -9px -85px ;
+	width: 113px;
+	height: 39px;
+}
+
+.logo-fut-hov{
+	background-position: -144px -83px ;
+	width: 113px;
+	height: 39px;
+}
+
+.minus-1{
+	background-position: -74px -11px ;
+	width: 12px;
+	height: 3px;
+}
+
+.minus-2{
+	background-position: -37px -11px ;
+	width: 12px;
+	height: 3px;
+}
+
+.minus-3{
+	background-position: 0 -11px ;
+	width: 12px;
+	height: 3px;
+}
+
+.plus-1{
+	background-position: -75px -36px ;
+	width: 11px;
+	height: 11px;
+}
+
+.plus-2{
+	background-position: -38px -38px ;
+	width: 11px;
+	height: 11px;
+}
+
+.plus-3{
+	background-position: -1px -38px ;
+	width: 11px;
+	height: 11px;
+}
+
+.t{
+	background-position: -365px -67px ;
+	width: 46px;
+	height: 48px;
+}
+
+.t-hov{
+	background-position: -366px 0;
+	width: 46px;
+	height: 48px;
+}
+
+.v{
+	background-position: -295px -67px ;
+	width: 46px;
+	height: 48px;
+}
+
+.v-hov{
+	background-position: -294px 0;
+	width: 46px;
+	height: 48px;
+}
+
+.cal-1{
+	background-position: -204px -6px ;
+	width: 21px;
+	height: 22px;
+}
+
+.cal-2{
+	background-position: -120px -6px ;
+	width: 21px;
+	height: 22px;
+}
+
+

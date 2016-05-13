@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sedona</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header class="intro container">
+        <ul class="main-navigation">
+            <li><a class="active" href="#">информация</a></li>
+            <li><a href="#">фото и видео</a></li>
+            <li class="small-logo">
+                <a href="#"><img src="img/small-logo.png" width="138" height="70" alt="логотип"></a>
+            </li>
+            <li><a href="#">карта штата</a></li>
+            <li><a href="#">гостиницы</a></li>
+        </ul>
+        <div class="welcome"></div>
+        <div class="sedona-logo"></div>
+    </header>
+    <main class="container">
+        <div class="description">
+            <p class="describe">СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего!</p>
+            <p class="reason">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        </div>
+        <div class="city">
+            <div class="city-describe">
+                <p class="about-title">НАСТОЯЩИЙ
+                 ГОРОДОК
+                </p>
+                <p class="title-n">— №1 —</p>
+                <p class="about-text">СЕДОНА — НЕ АТтРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+            </div>
+            <div class="city-foto"><img src="img/real-city.png" width="800" height="256" alt="город седона"></div>
+        </div>
+        <div class="features-city">
+            <div class="features-block housing">
+                <p class="housing-title">Жилье</p>
+                <p class="housing-about">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+            </div>
+            <div class="features-block food">
+                <p class="food-title">ЕДА</p>
+                <p class="food-about">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+            </div>
+            <div class="features-block souvenirs">
+                <p class="souvenirs-title">СУВЕНИРЫ</p>
+                <p class="souvenirs-about">Не только китайского, но и местного производства!</p>
+            </div>
+        </div>
+        <div class="bridge">
+            <div class="bridge-foto"><img src="img/bridge.jpg" width="800" height="256" alt="мост дьявола"></div>
+            <div class="bridge-describe">
+                <p class="about-title">ТАМ ЕСТЬ Мост дьявола</p>
+                <p class="title-n">— №2 —</p>
+                <p class="about-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            </div>
+        </div>
+        <div class="features-list">
+            <div class="features-block feature-area">
+                <p class="about-title">НЕБОЛЬШАЯ
+ПЛОЩАДЬ</p>
+                <p class="title-n">— №3 —</p>
+                <p class="about-text">ВСЕ достопримечательности 
+находятся очень близко</p>
+            </div>
+            <div class="features-block feature-road">
+                <p class="about-title">КРАСИВАЯ
+ДОРОГА</p>
+                <p class="title-n">— №4 —</p>
+                <p class="about-text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем 
+НЕ СКУЧНО!</p>
+            </div>
+            <div class="features-block feature-tourist">
+                <p class="about-title">МАЛО
+ТУРИСТОВ</p>
+                <p class="title-n">— №5 —</p>
+                <p class="about-text">ВБольшинство едет в гранд каньон и толпится там</p>
+            </div>
+        </div>
+        <div class="search">
+            <p class="search-title">ЗАИНТЕРЕСОВАЛИСЬ?</p>
+            <p class="search-info">Укажите предполагаемые даты поездки,<br> 
+и мы покажем вам лучшие предложения гостиниц в седоне</p>
+            <div class="search-block">
+                <a href="#" class="search-btn">ПОИСК ГОСТИНИЦЫ В седоне</a>
+                <div class="search-form">
+                    <form action="" method="post">
+                       <div class="search-form-dates">
+                        <div class="search-form-row clearfix">
+                            <label for="search-arrive-date" class="search-form-label">Дата заезда:</label>
+                            <input id="search-arrive-date" type="date" required="">
+                        </div>
+                        <div class="search-form-row clearfix">
+                            <label for="search-departure-date" class="search-form-label">Дата выезда:</label>
+                            <input id="search-departure-date" type="date" required="">
+                        </div>
+                        </div>
+                        <div class="search-form-row clearfix">
+                            <div class="search-form-col search-col-adult clearfix">
+                                <label for="search-audit-adult" class="search-form-label">Взрослых:</label>
+                                <input type="text" id="search-audit-adult" value="2">
+                                <a href="#" class="search-controls-subtract">
+                                    
+                                </a>
+                                <a href="#" class="search-controls-add"></a>
+                            </div>
+                            <div class="search-form-col search-col-junior clearfix">
+                                <label for="search-audit-junior" class="search-form-label">Детей:</label>
+                                <input type="text" id="search-audit-junior" value="10">
+                                <a href="#" class="search-controls-subtract">
+                                    
+                                </a>
+                                <a href="#" class="search-controls-add"></a>
+                            </div>
+                        </div>
+                        <button type="submit" class="search-form-btn">Найти</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
